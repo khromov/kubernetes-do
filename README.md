@@ -137,6 +137,12 @@ Type    Reason     Age   From          Message
 
 ### Misc
 
+#### Show application logs
+
+```
+kubectl logs -l app=hello-kubernetes-second --follow
+```
+
 #### Display running pods
 
 Current namespace:
